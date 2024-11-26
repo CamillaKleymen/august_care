@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+  <link rel="stylesheet" href="icon.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand me-md-0 me-auto ms-md-0 ms-auto" href="#">
+          <img src="icons/logo.svg" alt="" class="logo">
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse m-auto justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item me-xxl-4">
+              <a class="nav-link active text-dark" aria-current="page" href="#">Программы</a>
+            </li>
+            <li class="nav-item me-xxl-4">
+              <a class="nav-link text-dark" href="#">Услуги</a>
+            </li>
+            <li class="nav-item me-xxl-4">
+              <a class="nav-link text-dark" href="#">Пансионат</a>
+            </li>
+            <li class="nav-item me-xxl-4">
+              <a class="nav-link text-dark " aria-disabled="true">Для клиентов</a>
+            </li>
+            <li class="nav-item me-xxl-4">
+              <a class="nav-link text-dark " aria-disabled="true">Контакты</a>
+            </li>
+          </ul>
+          <div class="dropdown">
+            <button
+              class="text-dark bg-transparent btn-outline-secondary border-0 dropdown-toggle rounded-item text-corp-md-white"
+              type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              RU <i class="fa-solid fa-angle-down"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+              <li><a class="dropdown-item text-corp" href="#">EN</a></li>
+              <li><a class="dropdown-item" href="#">RU</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- section hero -->
+  <section class="bg-color">
+    <div class="container-fluid pe-0">
+      <div class="row gx-0 flex-lg-row flex-column-reverse">
+        <div class="col-lg-6">
+          <div class="w-100 h-100 d-flex flex-column justify-content-center">
+            <h1 class="text-dark fw-bold mb-3 f-4 mt-lg-0 mt-3">
+              Дарите своим близким спокойствие и радость!
+            </h1>
+            <p class="text-grey fs-md-4">Команда профессионалов, готовая помочь и <br> сделать счастливее семьи, где
+              близкие люди…</p>
+            <ul class="text-dark list-unstyled">
+              <li class="styled-li">Нуждаются в общении или помощи в быту</li>
+              <li class="styled-li">Полностью или частично утратили возможность к самообслуживанию</li>
+              <li class="styled-li">Страдают от деменции, болезни Альцгеймера, слабоумия</li>
+            </ul>
+            <div class="mt-3">
+              <button type="button" class="btn btn-primary me-2">Подробнее</button>
+              <button type="button" class="btn btn-white">Связаться с нами</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 p-5">
+          <img src="img/babushka.png" class="img-fluid object-fit-cover" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- care about closers -->
+  <section class="pt-5 mt-5">
+    <div class="container-fluid">
+      <div class="row text-start align-items-center">
+        <div class="col-lg-6">
+          <img src="img/care.png" class="img-fluid">
+        </div>
+        <div class="col-lg-6">
+          <h3 class="text-red pb-3"><strong>Забота о близких в </strong> <br> пансионате Avgust</h3>
+          <p class="fs-3">В Ташкенте тысячи семей сталкиваются с проблемой ухода за пожилыми родственниками в виду
+            отсуствия свободного времени и необходимых навыков. Наш пансионат предлагает профессиональный уход и заботу,
+            позволяя вам быть спокойными за своих близких.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- why choose us  -->
+  <section class="py-5 mb-lg-5 mb-2">
+    <div class="container-fluid">
+      <div class="d-flex flex-column align-items-lg-center align-items-start px-lg-5">
+        <h3 class="fw-bold">Почему выбирают "<span class="text-corp">Avgust</span>"?</h3>
+        <p class="text-dark text-lg-center text-start fs-4 mt-lg-5 mt-4">Наш мини-пансионат в Ташкенте — это уютное
+          место, где каждый пожилой человек найдет заботу и внимание. Специализируемся на уходе за людьми с нарушениями
+          памяти, обеспечивая круглосуточный присмотр и помощь в повседневных делах.</p>
+        <div class="slider-box mt-lg-5 w-100">
+          <div class="row slider gx-lg-5 gx-0">
+            <div class="col-lg-3">
+              <div class="card bg-corp border-0 px-lg-4 py-lg-4 py-3 d-flex flex-column justify-content-between">
+                <span>
+                  <img src="icons/slider-icon-1.svg" alt="" class="slider-icon">
+                </span>
+                <p class="fw-bold text-black fs-md-5 mb-0">Круглосуточный <br> уход</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="card card-white border-0 px-lg-4 py-lg-4 py-3 d-flex flex-column justify-content-between">
+                <span>
+                  <img src="icons/slider-icon-2.svg" alt="" class="slider-icon">
+                </span>
+                <p class="fw-bold text-black fs-md-5  mb-0">Доступное месторасположение</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card bg-corp border-0 px-lg-4 py-lg-4 py-3 d-flex flex-column justify-content-between">
+                <span>
+                  <img src="icons/slider-icon-3.svg" alt="" class="slider-icon">
+                </span>
+                <p class="fw-bold text-black fs-md-5  mb-0">Забота о здоровье
+                  и безопасности</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="card card-white border-0 px-lg-4 py-lg-4 py-3 d-flex flex-column justify-content-between">
+                <span>
+                  <img src="icons/slider-icon-4.svg" alt="" class="slider-icon">
+                </span>
+                <p class="fw-bold text-black fs-md-5  mb-0">Мед. поддержка</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- necessary documents -->
+  <section class="mb-0 pb-5 py-0 mt-5 bg-color-docs">
+    <div class="container-fluid">
+      <h3 class="text-black fw-bold text-start mb-4">Необходимые документы</h3>
+      <p class="text-black fs-5 text-start mb-5">
+        Для пользования услугами пансионата необходимо заключить договор, для которого нужно представить следующие
+        данные:
+      </p>
+      <div class="row row-cols-3 g-4">
+        <div class="col align-items-start">
+          <i class="bi bi-check-circle-fill text-warning fs-2 me-3 pb-5"></i>
+          <p class="mb-0 mt-3 fw-bold fs-5">Выписка из истории болезни в последнем месте госпитализации / Заключение по
+            результатам обследования</p>
+        </div>
+        <div class="col align-items-start">
+          <i class="bi bi-check-circle-fill text-warning fs-2 me-3 pb-5"></i>
+          <p class="mb-0 mt-3 fw-bold fs-5">Домашний адрес Родственника/Опекуна</p>
+        </div>
+        <div class="col align-items-start">
+          <i class="bi bi-check-circle-fill text-warning fs-2 me-3 pb-5"></i>
+          <p class="mb-0 mt-3 fw-bold fs-5">Домашний телефон Родственника/Опекуна</p>
+        </div>
+        <div class="col align-items-start">
+          <i class="bi bi-check-circle-fill text-warning fs-2 me-3 pb-5"></i>
+          <p class="mb-0 mt-3 fw-bold fs-5">Мобильные телефоны Родственника/Опекуна и его близких для экстренной связи
+          </p>
+        </div>
+        <div class="col align-items-start">
+          <i class="bi bi-check-circle-fill text-warning fs-2 me-3 pb-5"></i>
+          <p class="mb-0 mt-3 fw-bold fs-5">Домашний адрес Постояльца</p>
+        </div>
+        <div class="col align-items-start">
+          <i class="bi bi-check-circle-fill text-warning fs-2 me-3 pb-5"></i>
+          <p class="mb-0 mt-3 fw-bold fs-5">Скан/фото паспорта или ID-карты (ID-карта с двух сторон) Постояльца</p>
+        </div>
+        <div class="col align-items-start">
+          <i class="bi bi-check-circle-fill text-warning fs-2 me-3 pb-5"></i>
+          <p class="mb-0 mt-3 fw-bold fs-5">Скан/фото паспорта или ID-карты (ID-карта с двух сторон)
+            Родственника/Опекуна</p>
+        </div>
+        <div class="col align-items-start">
+          <i class="bi bi-check-circle-fill text-warning fs-2 me-3 pb-5"></i>
+          <p class="mb-0 mt-3 fw-bold fs-5">Лист назначений</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- price -->
+  <section class="mb-5">
+    <div class="container-fluid px-0">
+      <div class="row gx-0">
+        <div class="col-lg-8">
+          <div class="bg-img text-light p-5 pt-5 ps-5">
+            <h3 class="fw-bold">Прайс</h3>
+            <p class="text-light fs-5">Что входит в стоимость проживания?</p>
+          <ul class="list-unstyled mt-4 fs-4 ps-3">
+            <li class="d-flex align-items-center mb-3">
+              <span class="text-warning me-2 fs-4"><i class="bi bi-check-circle-fill text-warning fs-4 me-3 pb-5"></i></span> Само проживание
+            </li>
+            <li class="d-flex align-items-center mb-3">
+              <span class="text-warning me-2 fs-4"><i class="bi bi-check-circle-fill text-warning fs-4 me-3 pb-5"></i></span> 5 разовое питание
+            </li>
+            <li class="d-flex align-items-center mb-3">
+              <span class="text-warning me-2 fs-4"><i class="bi bi-check-circle-fill text-warning fs-4 me-3 pb-5"></i></span> Уход и гигиенические процедуры
+            </li>
+            <li class="d-flex align-items-center mb-3">
+              <span class="text-warning me-2 fs-4"><i class="bi bi-check-circle-fill text-warning fs-4 me-3 pb-5"></i></span> Измерение давления и оксигенация 2 раза в сутки
+            </li>
+            <li class="d-flex align-items-center mb-3">
+              <span class="text-warning me-2 fs-4"><i class="bi bi-check-circle-fill text-warning fs-4 me-3 pb-5"></i></span> Развлекательные программы
+            </li>
+            <li class="d-flex align-items-center mb-3">
+              <span class="text-warning me-2 fs-4"><i class="bi bi-check-circle-fill text-warning fs-4 me-3 pb-5"></i></span> Постоянное наблюдение персонала
+            </li>
+          </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="bg-orange text-light h-100 pt-5 px-5">
+            <h2 class="fw-bold">Стоимость проживания</h2>
+            <p class="fs-3 fw-bold mt-4">300,000 сум / сутки</p>
+            <p class="pt-3"> 
+              За эти деньги мы предоставляем не только уютное проживание, но и комплексный уход, который включает помощь в
+              одевании, смене одежды и белья, а также в выполнении гигиенических процедур, таких как купание, умывание,
+              смена подгузников и пеленок.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- section => menu  -->
+  <section>
+    <div class="container-fluid">
+      <h3 class="fw-bold">Меню</h3>
+      <div class="slider row p-5 text-center fs-4 fw-bold">
+        <div class="col-3 p-4">
+          <img src="img/mannayaKasha.png" class="img-fluid mb-4" alt="">
+          <p>Манная каша</p>
+        </div>
+        <div class="col-3 p-4">
+          <img src="img/sirniki.png" class="img-fluid mb-4" alt="">
+          <p>Сырники с ягодами</p>
+        </div>
+        <div class="col-3 p-4">
+          <img src="img/ris.png" class="img-fluid mb-4" alt="">
+          <p>Рис с подливкой (овощи+грибы+курица)</p>
+        </div>
+        <div class="col-3 p-4">
+          <img src="img/sirniki2.png" class="img-fluid mb-4" alt="">
+          <p>Сырники</p>
+        </div>
+        <div class="col-3 p-4">
+          <img src="img/mannayaKasha.png" class="img-fluid mb-4" alt="">
+          <p>Манная каша</p>
+        </div>
+        <div class="col-3 p-4">
+          <img src="img/sirniki.png" class="img-fluid mb-4" alt="">
+          <p>Сырники с ягодами</p>
+        </div>
+        <div class="col-3 p-4">
+          <img src="img/ris.png" class="img-fluid mb-4" alt="">
+          <p>Рис с подливкой (овощи+грибы+курица)</p>
+        </div>
+        <div class="col-3 p-4">
+          <img src="img/sirniki2.png" class="img-fluid mb-4" alt="">
+          <p>Сырники</p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center pt-5">
+        <a href="menu-pdf.pdf">
+          <button type="button" class="btn btn-warning py-3 fs-4">
+            Все меню
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- answers to popular questions -->
+  <section class="mb-5">
+    <div class="container-fluid pt-lg-5 pt-2">
+      <h4 class="fs-3 text-black fw-bold d-flex justify-content-center">Ответы на популярные вопросы</h4>
+      <div class="row gx-0 justify-content-center">
+        <div class="col-lg-8">
+          <div class="accordion mt-lg-5 mt-2" id="accordionExample">
+            <div class="accordion-item rounded-2 mb-lg-4 mb-2 bg-light-grey border-0">
+              <h2 class="accordion-header ">
+                <button class="text-black fw-bold accordion-button rounded-2 bg-light-grey border-0 py-4" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                  aria-controls="collapseOne">
+                  Какой режим работы? <i class="ms-auto fw-bold bi-chevron-down"></i>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-grey">
+                  Пансионат работает как в дневном режиме "детского сада" (привоз утром и отъезд вечером), так и с
+                  возможностью проживания с ночевкой.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item rounded-2 mb-lg-4 mb-2 bg-light-grey border-0">
+              <h2 class="accordion-header ">
+                <button class="text-black fw-bold accordion-button rounded-2 bg-light-grey border-0 py-4" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                  aria-controls="collapseTwo">
+                  Какой опыт у персонала? <i class="ms-auto fw-bold bi-chevron-down"></i>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                <div class="accordion-body text-grey">
+                  Пансионат работает как в дневном режиме "детского сада" (привоз утром и отъезд вечером), так и с
+                  возможностью проживания с ночевкой.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item rounded-2 mb-lg-4 mb-2 bg-light-grey border-0">
+              <h2 class="accordion-header ">
+                <button class="text-black fw-bold accordion-button rounded-2 bg-light-grey border-0 py-4" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseTree" aria-expanded="false"
+                  aria-controls="collapseTree">
+                  Какой режим работы? <i class="ms-auto fw-bold bi-chevron-down"></i>
+                </button>
+              </h2>
+              <div id="collapseTree" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                <div class="accordion-body text-grey">
+                  Пансионат работает как в дневном режиме "детского сада" (привоз утром и отъезд вечером), так и с
+                  возможностью проживания с ночевкой.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item rounded-2 mb-lg-4 mb-2 bg-light-grey border-0">
+              <h2 class="accordion-header ">
+                <button class="text-black fw-bold accordion-button rounded-2 bg-light-grey border-0 py-4" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                  aria-controls="collapseFour">
+                  Какой режим работы? <i class="ms-auto fw-bold bi-chevron-down"></i>
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                <div class="accordion-body text-grey">
+                  Пансионат работает как в дневном режиме "детского сада" (привоз утром и отъезд вечером), так и с
+                  возможностью проживания с ночевкой.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item rounded-2 mb-lg-4 mb-2 bg-light-grey border-0">
+              <h2 class="accordion-header ">
+                <button class="text-black fw-bold accordion-button rounded-2 bg-light-grey border-0 py-4" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                  aria-controls="collapseFive">
+                  Какой режим работы? <i class="ms-auto fw-bold bi-chevron-down"></i>
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                <div class="accordion-body text-grey">
+                  Пансионат работает как в дневном режиме "детского сада" (привоз утром и отъезд вечером), так и с
+                  возможностью проживания с ночевкой.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- contact form  -->
+  <section class="my-5 pt-lg-5 pt-0">
+    <div class="container-fluid">
+      <div class="row gx-lg-4 gx-0">
+        <div class="col-lg-6">
+          <div class="d-flex flex-column align-items-center">
+            <h3 class="text-black text-uppercase fs-1-large d-inline-block">Контактная форма</h3>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2119.169218375394!2d69.29024079891583!3d41.30977652246605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef4d50b594a47%3A0x5f3ccb88354e767a!2z0YPQu9C40YbQsCDQodCw0LTRi9C60LAg0JDQt9C40LzQvtCy0LAgNDYsINCi0LDRiNC60LXQvdGCLCBUYXNoa2VudA!5e0!3m2!1sru!2s!4v1730791538765!5m2!1sru!2s"
+              width="437" height="437" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" class="d-lg-block d-none"></iframe>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <p class="pb-lg-5 pb-1 text-black text-uppercase-lg underline text-lg-start text-center">
+            Напишите свой данные и наши менеджеры свяжутся с вами в ближайшее время. ваши данные не перейдут 3 лицам.
+          </p>
+          <div class="row gx-lg-5 gx-0">
+            <div class="col-lg-6">
+              <p class="text-black text-uppercase mb-5 d-lg-block d-none">Обязательные поля</p>
+              <form action="" class="text-center text-lg-start">
+                <div class="d-flex flex-column">
+                  <label for="name">И.Ф</label>
+                  <input class="border-0 mt-2 text-center text-lg-start" id="name" type="text"
+                    placeholder="Азизов Султан">
+                </div>
+                <div class="d-flex flex-column mt-3">
+                  <label for="mail">Почта</label>
+                  <input class="border-0 mt-2 text-center text-lg-start" id="mail" type="email"
+                    placeholder="azizovsultan15@gmail.com">
+                </div>
+                <div class="d-flex flex-column mt-3">
+                  <label for="phone">Телефон</label>
+                  <input class="border-0 mt-2 text-center text-lg-start" id="phone" type="tel "
+                    placeholder="+998 (90) 139 - 39 - 00">
+                </div>
+                <button type="button" class="btn btn-primary  mt-5">Отправить</button>
+              </form>
+            </div>
+            <div class="col-lg-6">
+              <p class="text-black text-uppercase mb-4 mt-lg-0 mt-4 text-lg-start text-center">социальные СЕТИ</p>
+              <ul class="list-inline text-corp  mt-3 text-lg-start text-center">
+                <li class="list-inline-item me-4">
+                  <a href="#" class="text-corp"><i class="fs-5 bi bi-twitter"></i></a>
+                </li>
+                <li class="list-inline-item me-4">
+                  <a href="#" class="text-corp"><i class="fs-5 bi bi-instagram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-corp"><i class="fs-5 bi bi-telegram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer -->
+  <footer class="border-footer py-5">
+    <div class="container-fluid">
+      <div class="row gx-lg-5 gx-0 gy-4">
+        <div class="col-lg-3 ps-0 d-flex flex-column">
+          <a href="#" class="mb-4">
+            <img src="icons/group.svg" alt="" class="object-fit-cover footer-logo">
+          </a>
+          <a href="#" class="mt-2">
+            <img src="icons/footer2.svg" alt="" class="logo">
+          </a>
+        </div>
+        <div class="col-lg-3">
+          <p class="text-black fw-semibold fs-30">Навигация</p>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="#" class="text-decoration-none text-black">Программы</a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-decoration-none text-black">Услуги</a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-decoration-none text-black">Пансионат</a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-decoration-none text-black">Для клиентов</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <p class="text-black fw-semibold fs-30">Навигация</p>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="tel:+998901222221" class="text-decoration-none text-black">+998 90 122 22 21</a>
+            </li>
+            <li class="mb-2">
+              <a href="tel:+998901222221" class="text-decoration-none text-black">+998 90 122 22 21</a>
+            </li>
+            <li class="mb-2">
+              <a href="mailto:avgvst@gmail.com" class="text-decoration-none text-black">avgvst@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <p class="text-black fw-semibold fs-30">Адрес</p>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="#" class="text-decoration-none text-black w-lg-50">г. Ташкент, ул. Садыка Азимова, дом 46</a>
+            </li>
+          </ul>
+          <p class="text-black fw-semibold fs-30">Соц. сети</p>
+          <ul class="list-inline text-corp  mt-3 ">
+            <li class="list-inline-item">
+              <a href="#" class="text-corp"><i class="fs-30 bi bi-telegram"></i></a>
+            </li>
+            <li class="list-inline-item me-4">
+              <a href="#" class="text-corp">
+                <i class="fs-30 bi bi-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <!-- js scripts connections -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://kit.fontawesome.com/ab16f4767e.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="main.js"></script>
+
+
+</body>
+
+</html>
