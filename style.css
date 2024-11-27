@@ -242,6 +242,9 @@ input::placeholder{
   }
 }
 @media(max-width: 990px){
+  body {
+    overflow-x: hidden;
+  }
 
   h3 {
     font-size: 36px;
